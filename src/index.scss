@@ -1,0 +1,28 @@
+.wp-block-group {
+    &.is-linked {
+        position: relative;
+
+        // Ensure the first element inside the group is not affected by the overlay.
+        > * {
+            margin-block-start: 0;
+        }
+
+        // Ensure the overlay is above everything else.
+        a.wp-block-group__link {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 3;
+            text-decoration: none;
+        }
+
+        // Ensure buttons and links are above the overlay.
+        .wp-block-button,
+        a {
+            position: relative;
+            z-index: 4;
+        }
+    }
+}

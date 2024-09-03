@@ -1,0 +1,53 @@
+.enable-linked-groups__link-popover {
+    .components-popover__content {
+        min-width: 350px;
+    }
+
+    .block-editor-link-control__field {
+        margin: 8px;
+    }
+
+    &-menu {
+        border-top: 1px solid #1e1e1e;
+        padding: 8px;
+
+        .components-button.has-icon {
+            height: auto;
+            padding-left: 8px;
+            padding-right: 8px;
+            text-align: left;
+
+            &>svg {
+                margin-right: 8px;
+            }
+        }
+    }
+
+    &-post-selected {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 16px;
+
+        &-label {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+        }
+
+        &-icon {
+            background-color: #f0f0f0;
+            border-radius: 2px;
+            height: 32px;
+            width: 32px;
+            align-items: center;
+            display: flex;
+            flex-shrink: 0;
+            justify-content: center;
+            position: relative;
+        }
+    }
+}
