@@ -1,4 +1,4 @@
-# Enable Button Icons
+# Enable Linked Groups
 
 [![Playground Demo Link](https://img.shields.io/badge/Playground_Demo-v0.1.0-blue?logo=wordpress&logoColor=%23fff&labelColor=%233858e9&color=%233858e9)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ndiego/enable-linked-groups/main/_playground/blueprint-github.json)
 
