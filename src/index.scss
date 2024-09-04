@@ -2,8 +2,8 @@
     &.is-linked {
         position: relative;
 
-        // Ensure the first element inside the group is not affected by the overlay.
-        > * {
+        // Ensure the first real element inside the group is not affected by the overlay.
+        &:not(.block-editor-block-list__block) > :nth-child(2) {
             margin-block-start: 0;
         }
 
@@ -15,7 +15,7 @@
             width: 100%;
             height: 100%;
             z-index: 3;
-            text-decoration: none;
+            text-decoration: none !important;
         }
 
         // Ensure buttons and links are above the overlay.
