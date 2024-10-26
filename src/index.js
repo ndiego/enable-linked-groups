@@ -102,8 +102,9 @@ function addInspectorControls( BlockEdit ) {
 						<Popover
 							anchor={ popoverAnchor }
 							onClose={ () => setIsEditingURL( false ) }
+							placement="bottom"
 							focusOnMount={ true }
-							offset={ 10 }
+							offset={ 12 }
 							className="enable-linked-groups__link-popover"
 							variant="alternate"
 						>
